@@ -32,16 +32,17 @@ void targetSum(int arr[], int n, int target)
 }
 
 int main() {
-	// int n;
-	// cin>>n;
-	// int arr[n];
-	// for(int i=0;i<n;i++){
-	// 	cin>>arr[i];
-	// }
-	// int x;
-	// cin>>x;
+	int n;
+    cout<< "Enter number\n";
+	cin>>n;
+	int arr[n];
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
+	int x;
+	cin>>x;
 
-int arr[] = {1,3,4,2,5} ;
-	targetSum(arr,5,5);
+
+	targetSum(arr,n,x);
 	return 0;
 }
